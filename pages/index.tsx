@@ -47,9 +47,9 @@ export default function Home() {
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white'>Providing all kinds of solution for your web presence. Make the best out of this digital era for your business and let us be a helping hand to your web services needs!</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 mb-5 text-gray-600'>
-            <AiFillTwitterCircle />
-            <AiFillLinkedin />
-            <AiFillYoutube />
+            <a href="#"><AiFillTwitterCircle /></a>
+            <a href="#"><AiFillLinkedin /></a>
+            <a href="#"><AiFillYoutube /></a>
           </div>
           <div className='relative bg-gradient-to-b from-teal-500 rounded-full h-80 w-80 mb-5 mx-auto overflow-hidden md:h-96 md:w-96'>
             <Image src={waveHello} alt={''} fill sizes="(max-width: 768px) 100vw,
