@@ -67,7 +67,7 @@ export default function Home() {
             </p>
           </div>
           <div className='lg:flex gap-10'>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 h-100 w-1/3'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 lg:h-100 lg:w-1/3'>
               <Image src={design} alt={""} width={100} height={100} className="mx-auto"></Image>
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Beautiful Designs</h3>
               <p className='py-2 dark:text-white'>Creating elegant desings suited for your needs using coherent design theories.</p>
@@ -77,7 +77,7 @@ export default function Home() {
               <p className='text-gray-800 py-1 dark:text-slate-300'>Figma</p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 h-100 w-1/3'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 lg:h-100 lg:w-1/3'>
               <Image src={code} alt={""} width={100} height={100} className="mx-auto"></Image>
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Clean Codes</h3>
               <p className='py-2 dark:text-white'>Writing clean codes, easy to maintain using best coding practices.</p>
@@ -87,7 +87,7 @@ export default function Home() {
               <p className='text-gray-800 py-1 dark:text-slate-300'>VC Code</p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 h-100 w-1/3'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 lg:h-100 lg:w-1/3'>
               <Image src={consulting} alt={""} width={100} height={100} className="mx-auto"></Image>
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Best Consultation</h3>
               <p className='py-2 dark:text-white'>Providing best consultation using the knowledge and expertise we have to uplift your business.</p>
